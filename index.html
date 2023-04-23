@@ -10,44 +10,67 @@
             <h1>Hannah Rajarao</h1>
             <nav>
                 <ul>
-                    <li>About Me</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#my-work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         
         <main>
-            <section>
+            <section id="about-me">
                 <h2>About Me</h2>
-                <div class="content">
-                    <p>
-                        I studied Mechanical Engineering and minored in Computer Science at The Cooper Union where 
-                        I graduated in May 2022. After graduated I worked for a LIDAR company in San Francisco, 
-                        where I got experience with hardware testing and programming collaboration. I joined this 
-                        boot camp because I wanted to improve my programming skills in a more consistent manner than 
-                        teaching myself, and I wanted to take advantage of the career resources. Outside of 
-                        programming I enjoy photography, aquariums, and bar trivia.
-                    </p>
+                <div class="content-container">
+                    <img src="assets/images/cherrim.png" alt="">
+                    <div id="about-me-description">
+                        <p>
+                            I studied Mechanical Engineering and minored in Computer Science at The Cooper Union where 
+                            I graduated in May 2022. After graduated I worked for a LIDAR company in San Francisco, 
+                            where I got experience with hardware testing and programming collaboration. I joined this 
+                            boot camp because I wanted to improve my programming skills in a more consistent manner than 
+                            teaching myself, and I wanted to take advantage of the career resources. Outside of 
+                            programming I enjoy photography, aquariums, and bar trivia.
+                        </p>
+                    </div>
                 </div>
             </section>
             
-            <section>
-                <h2>Works</h2>
+            <section id="my-work">
+                <h2>My Work</h2>
                 <div class="content">
-                    <h3>Monochrome Minimalist Minesweeper</h3>
-                    <!-- <p>custom minesweeper game</p> -->
+                    <div class="card">
+                        <h3>Monochrome Minimalist Minesweeper</h3>
+                        <a href="https://hannahrajarao.github.io/monochrome-minimalist-minesweeper" target="_blank">
+                            <img src="assets/images/monochrome-minimalist-minesweeper.png" alt="">
+                        </a>
+                    </div>
                     <div class="projects">
-                        <h3>Location and Weather</h3>
-                        <!-- <p>displays your location and weather in your area using a RESTful API</p> -->
-                        <h3>Mouse Following Gradients</h3> 
+                        <div class="card">
+                            <h3>Color Guessing Game</h3>
+                            <a href="https://hannahrajarao.github.io/color-guessing-game/" target="_blank"><img src="assets/images/color-guessing-game.png" alt=""></a>
+                        </div>
+                        <div class="card">
+                            <h3>Location and Weather</h3>
+                            <a href="https://hannahrajarao.github.io/location-weather/" target="_blank"><img src="assets/images/location-weather.png" alt=""></a>
+                        </div>
+                        <div class="card">
+                            <h3>Mouse Following Gradients</h3>
+                            <a href="https://hannahrajarao.github.io/mouse-following-gradients/flashlight.html" target="_blank"><img src="assets/images/mouse-tracker.png" alt=""></a>
+                        </div>
+                        <div class="card">
+                            <h3>Color Picker</h3>
+                            <a href="https://hannahrajarao.github.io/color-picker/" target="_blank"><img src="assets/images/color-picker.png" alt=""></a>
+                        </div>
                     </div>
                     
                 </div>
                 
             </section>
-            
         </main>
-        
+        <footer>
+            <section id="contact">
+                <h2>Contact</h2>
+            </section>
+        </footer>
     </body>
 </html>
