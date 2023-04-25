@@ -44,15 +44,20 @@ nav ul li a {
     align-self: center;
 }
 
-.card img {
-    width: 100%;
-    opacity: 0.6;
+.card img,
+#contact img {
+    opacity: 0.8;
     transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
     -webkit-transition: opacity .5s ease-in-out;
 }
 
-.card img:hover {
+.card img {
+    width: 100%;
+}
+
+.card img:hover,
+#contact img:hover{
     opacity: 1;
     transition: .5 ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
@@ -71,6 +76,20 @@ section h2 {
 
 section > div {
     margin: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+}
+
+footer,
+footer h2 {
+    background-color: deeppink;
+}
+
+#contact img {
+    height: 50px;
 }
 
 @media screen and (max-width: 600px) {
