@@ -101,4 +101,12 @@ footer h2 {
     .projects {
         column-count: 1;
     }
+    nav ul li {
+        padding-right: 40px;
+    }
+    header h1 {
+        padding-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
 }
