@@ -96,6 +96,14 @@ footer h2 {
     height: 50px;
 }
 
+@media screen and (min-width: 900px) {
+    #my-work-content,
+    #about-me-content {
+        width: 880px;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width: 600px) {
     header,
     nav ul,
