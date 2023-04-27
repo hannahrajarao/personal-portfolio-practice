@@ -46,7 +46,6 @@ nav ul li a {
 
 .card img,
 #contact img {
-    opacity: 0.8;
     transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
     -webkit-transition: opacity .5s ease-in-out;
@@ -54,6 +53,11 @@ nav ul li a {
 
 .card img {
     width: 100%;
+    opacity: 0.6;
+}
+
+#contact img {
+    opacity: 0.7;
 }
 
 .card img:hover,
