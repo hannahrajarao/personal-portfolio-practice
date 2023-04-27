@@ -33,7 +33,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-.content-container {
+#about-me-content {
     display: flex;
 }
 
@@ -107,7 +107,7 @@ footer h2 {
 @media screen and (max-width: 600px) {
     header,
     nav ul,
-    .content-container {
+    #about-me-content {
         flex-direction: column;
     }
     .projects {
