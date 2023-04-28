@@ -54,6 +54,7 @@ nav ul li a {
 .card img {
     width: 100%;
     opacity: 0.6;
+    margin: 10px 0;
 }
 
 #contact img {
@@ -80,6 +81,10 @@ section h2 {
 
 section > div {
     margin: 15px;
+}
+
+h3 {
+    margin: 0;
 }
 
 footer {
